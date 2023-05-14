@@ -5,31 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProyectoPagina</title>
-    <script src="https://kit.fontawesome.com/451c0a13e4.js" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="./css/estilos_flexbox.css">
 </head>
 
 <body>
     <header class="todo">
-        <div class="menu">
-            <a href="#"><img src="./assets/img/codoacodo.png" class="logo" alt="Logo"></a>
-            <h2 class="texlogo">Conf . Bs As</h2>
-        </div>
-        <div class="listanav">
-            <nav>
-                <a href="#laConferencia" class="colornav">La conferencia</a>
-                <a href="#losOradores" class="colornav">Los Oradores</a>
-                <a href="#lugarYfeha" class="colornav">Lugar y Fecha</a>
-                <a href="#convierteteEnOrador" class="colornav">Conviertete en Orador</a>
-                <a href="./page/comprar_tickets.html" class="colornav1">Comprar Tickets</a>
+        <div class="menunav">
+            <div class="contenedorLogo">
+                 <a href="#"><img src="./assets/img/codoacodo.png" class="logo" alt="Logo"></a>
+                <h2 class="texlogo">Conf . Bs As</h2>
+            </div>
+            <nav class="navegacion">
+                <ul class="listnav">
+                    <a href="#laConferencia" class="colornav">La conferencia</a>
+                    <a href="#losOradores" class="colornav">Los Oradores</a>
+                    <a href="#lugarYfeha" class="colornav">Lugar y Fecha</a>
+                    <a href="#convierteteEnOrador" class="colornav">Conviertete en Orador</a>
+                    <a href="./page/comprar_tickets.html" id="colornav1">Comprar Tickets</a>
+                </ul>
             </nav>
         </div>
-        <div class="laseccion">
-
-            <section class="colortex">
+        <section class="laConferencia">
+            <div class="contenedorTextConf">  
                 <h1>Conf Bs.As.</h1>
                 <p class="parrafo">Bs As llega por primera vez a Argentina. Un eventopara compartir con nuestra
                     comunidad el
@@ -37,9 +35,13 @@
                     miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos
                     para ti.
                     Te esperamos!</p>
-                <a href="" id="texOrador">Quiero ser orador</a>
-                <a href="" class="colorfondo">Comprar tickets</a>
-            </section>
+                <div>
+                    <a href="" id="texOrador">Quiero ser orador</a>
+                    <a href="" class="colorfondo">Comprar tickets</a>
+                </div>
+            
+            </div>  
+        </section>
 
 
         </div>
