@@ -388,7 +388,7 @@ header{
         }
         #texOrador {
             position: absolute;
-            top: 90%;
+            top: 75%;
             left: 10%;
             color: white;
         }
@@ -396,7 +396,7 @@ header{
         
         .colorfondo {
             position: absolute;
-            top: 90%;
+            top: 75%;
             left: 45%;
             color: white;
            
